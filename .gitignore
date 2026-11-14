@@ -1,0 +1,28 @@
+# Raw investigation exports
+*.csv
+*.zip
+
+# Local and temporary files
+*.log
+*.tmp
+*.bak
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Sensitive files
+.env
+*.key
+*.pem
+
+
+# Ignore PNG screenshots in the root folder
+/*.png
+
+# Keep evidence screenshots available for Git
+!/evidence/*.png
